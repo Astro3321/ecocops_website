@@ -8,9 +8,10 @@ export default function Home() {
         <Header />
         <Row className="home-row-section">
             <Container className="home-text-section">
-                <Row>
+                {/* <Row>
                     Ecocops-The Home of Eco Warriors<br />
-                </Row>
+                </Row> */}
+                <h1 className='glow'> Ecocops-The Home of Eco Warriors</h1>
                 <Row>
                     {/* Small text describing eco club */}
                 </Row>
