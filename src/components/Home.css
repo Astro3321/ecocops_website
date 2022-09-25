@@ -7,3 +7,29 @@
     padding-right: 0px;
     padding-left: 0px;
 }
+
+.heading-text {
+    color: #E3E8EB;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.page-links:hover {
+    color: #2F4334;
+    text-decoration: underline;
+}
+
+.home-row-section {
+    width: 100%;
+    height: 100vh;
+}
+
+.home-text-section {
+    width: fit-content;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    color: #175756;
+    font-size: x-large;
+    font-weight: bolder;
+}
