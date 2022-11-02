@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container } from "react-bootstrap"
 import Home from "./components/Home.js"
+import Past_Events from './components/Past_Events.js'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 export default function App() {
@@ -8,6 +9,7 @@ export default function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />}></Route>
+        <Route path="/events" element={<Past_Events />}></Route>
       </Routes>
     </Router>
   </Container>

@@ -12,6 +12,8 @@ export default function Header() {
                 <Nav className="d-flex justify-content-end">
                     <Nav.Link herf="#placeholder"><span className="heading-text page-links">Past Events</span></Nav.Link>
                     <Nav.Link herf="#placeholder"><span className="heading-text page-links">Upcoming Events</span></Nav.Link>
+                    <Nav.Link herf="#placeholder"><span className="heading-text page-links">Members</span></Nav.Link>
+                    <Nav.Link herf="#placeholder"><span className="heading-text page-links">Admin</span></Nav.Link>
                 </Nav>
             </Container>
         </Navbar>
