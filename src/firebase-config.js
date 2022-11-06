@@ -15,5 +15,5 @@ const config = {
 const app = initializeApp(config);
 export const auth = getAuth(app);
 export const storage = getStorage(app);
-export const db = getFirestore(app, {useFetchStreams: false, experimentalForceLongPolling:true});
+export const db = getFirestore(app);
 export default app;
